@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+.text1{
+  font-size: medium;
+  text-decoration: none;
+  color: black;
+}
+h2, h3, p{
+  color: black;
+  font-family:monospace;
+}
+p{
+  font-size: large;
+}
+
+.button1{
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.container{
+  padding: 20px;
+  border: 2px solid red;
+  margin: 20px auto;
+  text-align: center;
+
+}
+
+hr{
+  border:none ;
+  border-top: 2px dashed #5555;
+  margin: 10px;
+  
+}

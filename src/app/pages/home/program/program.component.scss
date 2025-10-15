@@ -1,0 +1,48 @@
+.programContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.program1{
+  display: flex;
+  gap: 15px;
+}
+
+.Jprogram{
+  background-image: url('/assets/2.png');
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+  height: 300px;
+  
+}
+
+.Jprogram h2, p{
+  color: white
+
+}
+.Tprogram{
+  background-image: url('/assets/3.png');
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+  height: 300px;
+}
+.Tprogram h2{
+  color: white;
+}
+.Pprogram{
+  background-image: url('/assets/3.png');
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+  height: 300px;
+}
+.Pprogram h2{
+  color: white;
+}
+.newProd{
+  text-align: center;
+}
