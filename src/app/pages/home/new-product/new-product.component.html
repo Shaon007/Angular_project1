@@ -1,3 +1,12 @@
-<div>
-  div*
+<div class="cardContainer">
+  <div class="card" *ngFor="let item of cards">
+    <img [src]="item.img" alt="{{ item.title }}">
+    <div class="cardText">
+      <h3>{{ item.icon }} {{ item.title }}</h3>
+      <p>Price: ${{ item.price }}</p>
+      <button>Buy Now</button>
+    </div>
+  </div>
+
 </div>
+<hr>

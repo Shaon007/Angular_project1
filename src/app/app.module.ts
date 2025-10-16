@@ -15,6 +15,7 @@ import { SliderComponent } from './pages/home/slider/slider.component';
 import { ClubComponent } from './pages/home/club/club.component';
 import { ProgramComponent } from './pages/home/program/program.component';
 import { NewProductComponent } from './pages/home/new-product/new-product.component';
+import { ClientQuestionComponent } from './pages/home/client-question/client-question.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { NewProductComponent } from './pages/home/new-product/new-product.compon
     ClubComponent,
     ProgramComponent,
     NewProductComponent,
+    ClientQuestionComponent,
 
   ],
   imports: [
