@@ -15,7 +15,30 @@
   list-style: none;
   font-size: large;
   font-weight: bold;
+
 }
 .heading1{
-  font-size: medium;
+  font-size: large;
+}
+.navEnd{
+    display: flex;
+    gap: 4px;
+
+}
+.navSearch{
+  border-radius: 8px;
+  padding: 4px;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+    
+}
+ul li a:hover{
+  color: red;
+}
+ul li a.active{
+  color: crimson;
+  text-decoration: underline;
+
 }

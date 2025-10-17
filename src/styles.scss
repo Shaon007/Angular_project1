@@ -23,7 +23,8 @@ p{
 .container{
   padding: 20px;
   border: 2px solid red;
-  margin: 20px auto;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
 
 }
@@ -32,5 +33,8 @@ hr{
   border:none ;
   border-top: 2px dashed #5555;
   margin: 10px;
-  
+
+}
+body{
+  font-family: monospace;
 }

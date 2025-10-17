@@ -5,6 +5,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
+import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,7 @@ const routes: Routes = [
       { path: 'about', component: AboutComponent },
       { path: 'blog', component: BlogComponent },
       { path: 'contact', component: ContactComponent },
+      {path:'seller-auth', component:SellerAuthComponent},
 
   ]
   }

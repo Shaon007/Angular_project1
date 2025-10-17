@@ -16,6 +16,7 @@ import { ClubComponent } from './pages/home/club/club.component';
 import { ProgramComponent } from './pages/home/program/program.component';
 import { NewProductComponent } from './pages/home/new-product/new-product.component';
 import { ClientQuestionComponent } from './pages/home/client-question/client-question.component';
+import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { ClientQuestionComponent } from './pages/home/client-question/client-que
     ProgramComponent,
     NewProductComponent,
     ClientQuestionComponent,
+    SellerAuthComponent,
 
   ],
   imports: [
