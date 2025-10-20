@@ -1,0 +1,93 @@
+.formContainer {
+  width: 400px;
+  margin: 50px auto;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form {
+  margin-bottom: 15px;
+
+}
+
+.form label {
+  display: block;
+  margin-bottom: 6px; /* ✅ Fixed (removed space between 6 and px) */
+  font-weight: bold;
+  color: #333;
+}
+
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.form input:focus,
+.form select:focus,
+.form textarea:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  margin-bottom: 15px;
+}
+
+.checkbox label {
+  font-weight: normal;
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c63ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5848d1;
+}
+.success-msg {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.error-msg {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,46 @@
+{
+  "seller": [
+    {
+      "id": "1",
+      "name": "Nazir Hossain",
+      "email": "nazirhossain.shaon@gmail.com",
+      "password": "abc1234"
+    },
+    {
+      "id": "2",
+      "name": "John Wick",
+      "email": "john@gmail.com",
+      "password": "abc1234"
+    },
+    {
+      "id": "8ccb",
+      "name": "Md Nazir Md nazir hossain",
+      "password": "rfcvbn",
+      "email": "it24639@mbstu.ac.bd"
+    },
+    {
+      "id": "5431",
+      "name": "Md Nazir Md nazir hossain",
+      "password": "yery",
+      "email": "risejid938@operades.com"
+    },
+    {
+      "id": "9eb8",
+      "name": "Md Nazir Md nazir hossain",
+      "password": "wedccfedf",
+      "email": "it24639@mbstu.ac.bd"
+    },
+    {
+      "id": "b552",
+      "name": "nazir",
+      "password": "12345",
+      "email": "it20055@mbstu.ac.bd"
+    },
+    {
+      "id": "b7f0",
+      "name": "kudos",
+      "password": "1234454245",
+      "email": "hello@dfa"
+    }
+  ]
+}

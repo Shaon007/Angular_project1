@@ -6,6 +6,8 @@ import { BlogComponent } from './pages/blog/blog.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SellerAuthComponent } from './seller-auth/seller-auth.component';
+import { SellerHomeComponent } from './pages/seller-home/seller-home.component';
+import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
   {
@@ -17,7 +19,11 @@ const routes: Routes = [
       { path: 'about', component: AboutComponent },
       { path: 'blog', component: BlogComponent },
       { path: 'contact', component: ContactComponent },
-      {path:'seller-auth', component:SellerAuthComponent},
+      { path: 'seller-auth', component: SellerAuthComponent },
+      {path:'seller-home',
+        component: SellerHomeComponent,
+        canActivate:[AuthGuard]
+      }
 
   ]
   }

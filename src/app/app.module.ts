@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
-
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
@@ -17,6 +17,8 @@ import { ProgramComponent } from './pages/home/program/program.component';
 import { NewProductComponent } from './pages/home/new-product/new-product.component';
 import { ClientQuestionComponent } from './pages/home/client-question/client-question.component';
 import { SellerAuthComponent } from './seller-auth/seller-auth.component';
+import { FormsModule } from '@angular/forms';
+import { SellerHomeComponent } from './pages/seller-home/seller-home.component';
 
 @NgModule({
   declarations: [
@@ -35,12 +37,14 @@ import { SellerAuthComponent } from './seller-auth/seller-auth.component';
     NewProductComponent,
     ClientQuestionComponent,
     SellerAuthComponent,
+    SellerHomeComponent,
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-    // HttpClientModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
